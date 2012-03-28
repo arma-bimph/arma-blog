@@ -11,3 +11,69 @@
  *= require_self
  *= require_tree .
 */
+body
+{
+  padding: 0px;
+  margin: 0px;
+  background: url('/images/arma2.jpg') repeat;
+  color: #000;
+}
+
+#content
+{
+  padding: 10px;
+  min-height: 500px;
+  width: 944px;
+  background-color: #fff;
+  margin: 20px auto 130px;
+  border: 2px solid #fc0;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  color: #000;
+}
+
+#footer
+{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  background: url('/images/arma2.jpg') repeat;
+}
+
+#navigation
+{
+  background-color: #fc0;
+  height: 40px;
+}
+
+#navigation ul
+{
+  width: 960px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+#navigation ul li
+{
+  float: left;
+  padding: 10px 20px;
+}
+
+#navigation ul li:hover
+{
+  font-weight: bold;
+}
+
+#navigation ul li a
+{
+  color: #000;
+  text-decoration: none;
+}
+
+#map
+{
+  width: 100%;
+  height: 500px;
+}

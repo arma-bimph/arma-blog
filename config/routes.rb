@@ -1,4 +1,8 @@
 ArmaBlog::Application.routes.draw do
+  resources :news, :controller => :articles
+  resources :photos
+  resources :events
+  resources :schedules
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

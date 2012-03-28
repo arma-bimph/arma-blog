@@ -3,12 +3,18 @@
 <head>
   <title>ArmaBlog</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBYZHtUZJpaR7raol6xIbPHNCvd5vlFkCg&sensor=true"></script>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div id="content">
+    <%= yield %>
+  </div>
+  <div id="footer">
+    <div id="navigation">
+      <%= render "/shared/menu" %>
+    </div>
+  </div>
 </body>
 </html>
